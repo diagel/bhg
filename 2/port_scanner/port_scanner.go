@@ -25,7 +25,7 @@ func main() {
 	for {
 		var str string = ""
 		fmt.Scanf("%s\n", &str)
-		str = str + "%d"
+		str = str + ":%d"
 
 		ports := make(chan int, 100)
 		results := make(chan int)
